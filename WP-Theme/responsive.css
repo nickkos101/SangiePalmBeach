@@ -1,0 +1,134 @@
+/* Mega Desktop */
+@media (max-width:4000px) {
+	.grid-sizer {width:19% !important;}
+	.masonry .item {width:19% !important;}
+}
+
+/* Large Desktop */
+@media (max-width:1700px) {
+	.grid-sizer {width:24% !important;}
+	.masonry .item {width:24% !important;}
+	.slider {height: 280px;}
+	.slider .slide {height: 280px;}
+	.slide-headline {font-size: 54px;}
+	.slide-subhead { font-size: 30px; }
+}
+
+/* Average Desktop/Laptop */
+@media (max-width:1200px) {
+	.feature-banner .half {width: 100%; margin-bottom: 15px;}
+	.grid-sizer {width:32.3% !important;}
+	.masonry .item {width:32.3% !important;}
+	.contact-page {width: 100% !important;}
+}
+
+
+/* TABLET  */
+
+@media (max-width:1000px) {
+	#bgvid { display: none; }
+	.feature-video {min-height: 420px;}
+	.header {display: none;}
+
+	main {width: 100%; margin-left: 0px; margin-top:38px;}
+	footer {width: 100%; margin-left: 0px;}
+	footer h2 {font-size: 27px;}
+
+.header .site-credits {display: none;}
+	.resp-menu {display:block;}
+
+	/* MASONRY */
+	.grid-sizer {width:32.3% !important;}
+	.masonry .item {width:32.3% !important;}
+
+	/* FOOTER */
+	.footer-signup .two-thirds {width: 100%;}
+	.footer-signup .third {width: 100%; text-align: center;}
+	.footer-signup input[type=email] {width: 75%;}
+	.footer-info .fourth {width: 50%;}
+	.footer-bottom .column {width: 100%;}
+
+	/* WOO-ACCOUNTS */
+
+	.cart-style .account-style .col-1 {width: 100% !important; margin-bottom:10px;}
+	.cart-style .account-style .col-2 {margin:0px !important; width: 100% !important; margin-top:10px;}
+
+	.account-style input[type=text], .account-style input[type=password], .account-style input[type=email] {width: 100%;}
+
+	.images {width: 100% !important; max-width: 100% !important;}
+	.summary {width: 100% !important; max-width: 100% !important;}
+
+	p.demo_store {bottom: 0;
+		top: auto;
+		font-size: 11px;
+		width: 100%;
+		border-radius: 0;
+		position: fixed;}
+
+		.cart-count {position: fixed; background-color: #000; border-radius:100%; top:auto; bottom:2px; z-index: 999999; left:-2px; width: 48px; height: 48px; text-align: center;}
+		.cart-count a {color: #fff;}
+		.cct {position: fixed; margin-top:-12px; margin-right:-14px; background-color: #333; border-radius:100%; padding:3px 7px; font-size:11px; border:1px solid #666;}
+	}
+
+
+	/* MOBILE */
+
+	@media (max-width:480px) {
+		.cat-desc {min-height:150px !important;}
+		.third {width: 100% !important;}
+		.two-thirds {width: 100% !important;}
+		.feature-banner .column {padding-left: 0; padding-right: 0;}
+		.slider {height: 210px;}
+		.slider .slide {height: 210px;}
+		.slider .slide .slide-caption { bottom: 0;}
+		.slide-headline { font-size: 31px; }
+		.slide-subhead { font-size: 24px; }
+
+		.cta-block {top: 8%;}
+		.cta-block h2 {font-size: 28px;}
+
+		/* MASONRY */
+		.grid-sizer {width:99% !important;}
+		.masonry .item {width:99% !important;}
+
+		.footer-info .fourth {width: 100%;}
+
+		/* WISHLIST */
+
+		.wl-table {display:block;}
+		.wl-table thead {display:block;}
+		.wl-table tbody {display:block;}
+		.wl-table tr {padding-bottom: 5px; border:none !important;}
+		.wl-table th, .wl-table td {display:block; border:none !important; vertical-align: top; width:100%; text-align: center;}
+		.wl-share-links {padding-top: 10px !important; padding-bottom: 10px !important;}
+		.wl-table .row-actions {display: none;}
+		#wl-wrapper .button {margin-left:-25px !important;}
+
+		#wl-wrapper .wl-privacy-col {width: 100% !important;}
+
+		.cart-collaterals .cart_totals {width: 100% !important;}
+
+		.woocommerce-breadcrumb {line-height:25px !important; font-size:14px !important;}
+		.woocommerce-breadcrumb a {font-size:14px !important;}
+		.woocommerce-breadcrumb .product-location {font-size: 14px;}
+
+		.summary {padding-right: 30px;}
+
+		input[type=text] {width: 100%;}
+		input[type=submit] {width: 100%;}
+		button {width: 100%;}
+		select {width: 100%;}
+
+		/* CART */
+
+		.cart {display: block;}
+		.cart thead {display:block;}
+		.cart tbody {display:block;}
+		.cart tr {display:block;}
+		.cart th {display:inline-block; vertical-align:top; padding:5px; display: none;}
+		.cart td {display:inline-block; vertical-align:top; padding:5px; max-width: auto !important; min-height: auto !important;}
+		.cart_item td {width: 100% !important; display: block; text-align: center;}
+		.cart-style td.product-thumbnail img {display: inline-block !important; width: auto !important; vertical-align: top;}
+		.cart td.product-name {padding-top: 20px;}
+		.cart td.product-price {display: none;}
+	}
